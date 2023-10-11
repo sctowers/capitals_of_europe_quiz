@@ -14,8 +14,8 @@ def select_random_country(used_countries):
 def ask_question(country, capital):
     print(f"What is the capital of {country}? ")
     start_time = time.time()
-    end_time = time.time()
     user_answer = input().strip()
+    end_time = time.time()
     elapsed_time = end_time - start_time
     return user_answer, elapsed_time
 
